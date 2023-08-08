@@ -9,7 +9,7 @@
 
 앱을 클릭하면 스플래시화면이 나타나고, 3초뒤 메인화면으로 전환됩니다. 제가 제일 좋아하는 양파쿵야! 맑은 눈의 광인처럼 너무 귀엽지 않나요? 사심 가득 컨셉으로 구성해 보았습니다.
 
-<div><h3>✔ Join, SignUp</h3></div>
+<div><h3>✔ SignUp</h3></div>
 
 ![main](https://github.com/ouowinnie/MyInfo/assets/139089298/36ffcf93-6436-4977-bd65-d774bc68c092)
 
