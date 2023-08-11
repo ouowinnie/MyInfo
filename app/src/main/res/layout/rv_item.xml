@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@drawable/border"
+    android:layout_height="200dp">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:src="@drawable/fragment_btn_01"
+        android:layout_width="match_parent"
+        android:layout_height="199dp"
+        android:layout_weight="1"
+        android:scaleType="fitXY" />
+    <TextView
+        android:id="@+id/rvItem"
+        android:text="양파쿵야는 참지않긔"
+        android:gravity="left|center"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"/>
+
+</LinearLayout>

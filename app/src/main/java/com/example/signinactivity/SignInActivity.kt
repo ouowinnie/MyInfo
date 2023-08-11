@@ -24,6 +24,7 @@ class SignInActivity : AppCompatActivity() {
 
         val login = findViewById<Button>(R.id.btn_login)
         val join = findViewById<Button>(R.id.btn_join)
+        val photo = findViewById<Button>(R.id.btn_photo)
         val idText = findViewById<EditText>(R.id.idText)
         val pwText = findViewById<EditText>(R.id.pwText)
 
@@ -46,6 +47,12 @@ class SignInActivity : AppCompatActivity() {
             val intent = Intent(this,SignUpActivity::class.java)
             resultLauncher.launch(intent)
         }
+        // 쿵야 앨범 보기
+        photo.setOnClickListener {
+            val intent = Intent(this,MainActivity::class.java)
+            startActivity(intent)
+        }
+
     }
     private lateinit var resultLauncher: ActivityResultLauncher<Intent>
 

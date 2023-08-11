@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_nav"
+    app:startDestination="@id/photoList01">
+
+    <fragment
+        android:id="@+id/photoList01"
+        android:name="com.example.signinactivity.PhotoList01"
+        android:label="fragment_photo_list01"
+        tools:layout="@layout/fragment_photo_list01" >
+        <action
+            android:id="@+id/action_photoList01_to_photoList02"
+            app:destination="@id/photoList02" />
+        <action
+            android:id="@+id/action_photoList01_to_photoList03"
+            app:destination="@id/photoList03" />
+    </fragment>
+    <fragment
+        android:id="@+id/photoList02"
+        android:name="com.example.signinactivity.PhotoList02"
+        android:label="fragment_photo_list02"
+        tools:layout="@layout/fragment_photo_list02" >
+        <action
+            android:id="@+id/action_photoList02_to_photoList01"
+            app:destination="@id/photoList01" />
+        <action
+            android:id="@+id/action_photoList02_to_photoList03"
+            app:destination="@id/photoList03" />
+    </fragment>
+    <fragment
+        android:id="@+id/photoList03"
+        android:name="com.example.signinactivity.PhotoList03"
+        android:label="fragment_photo_list03"
+        tools:layout="@layout/fragment_photo_list03" >
+        <action
+            android:id="@+id/action_photoList03_to_photoList01"
+            app:destination="@id/photoList01" />
+        <action
+            android:id="@+id/action_photoList03_to_photoList02"
+            app:destination="@id/photoList02" />
+    </fragment>
+</navigation>

@@ -87,7 +87,7 @@
             android:text="로그인"
             android:textSize="18dp"
             android:layout_marginTop="40dp"
-            android:layout_marginBottom="20dp"
+            android:layout_marginBottom="10dp"
             android:backgroundTint="#01859c"/>
 
         <Button
@@ -96,8 +96,18 @@
             android:layout_height="wrap_content"
             android:text="회원가입"
             android:textSize="18dp"
+            android:layout_marginBottom="10dp"
             app:layout_constraintEnd_toEndOf="parent"
             android:backgroundTint="#01859c"/>
+
+        <Button
+            android:id="@+id/btn_photo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="쿵야 앨범 보기"
+            android:textSize="18dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:backgroundTint="#f0b000"/>
 
 
     </LinearLayout>
